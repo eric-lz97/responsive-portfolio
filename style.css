@@ -1,0 +1,188 @@
+body {
+    margin:0;
+}
+
+#main-wrapper {
+    width: 100%;
+}
+
+
+.wrapper-nav {
+    margin-top:-30px;
+    text-align: left;
+
+}
+
+.info {
+
+    display: inline-block;
+    width: 1000px;
+    text-align: right;
+}
+
+
+nav ul {
+    list-style-type: none;
+
+}
+
+nav li {
+    margin: 15px;
+    display: inline-block;
+}
+
+
+nav a {
+    text-decoration: none;
+
+    font-size: 20px;
+    padding-bottom: 5px;
+    color: black;
+
+}
+
+
+
+.name {
+    width: 160px;
+    font-size: 50px;
+    color: white;
+    padding: 10px 50px;
+    background-color: rgb(59, 179, 129);
+    margin-bottom: 0px;
+}
+
+
+
+.aabout {
+
+    background-position: center;
+
+    padding: 200px auto;    background-image: url("../images/circuit.png");
+    margin-top: 5px;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.about {
+    background: white;
+    height: 700px;
+    width: 900px;
+    background-size: cover;
+    text-align: none;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+
+.about-content{
+padding: 30px;
+
+
+}
+
+.about_me {
+    font-size: 30px;
+    color: aqua;
+    text-align: top;
+
+
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+p {
+ 
+    float: right;
+}
+
+
+
+
+
+.container {
+
+    position: initial;
+    width: 100px;
+
+}
+
+.text_box {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+button {
+    padding: 15px 20px;
+    color: white;
+    background-color: cadetblue
+}
+
+
+.container {
+    color: white;
+    padding: 40px;
+    background: black;
+    width: 100%;
+}
+
+button{
+ margin-left: 30px;
+width: 120px;
+
+
+}
+
+.container-box{
+    text-align: center;
+    background: black;
+    width: 250px;
+    height: 100px;
+    color: aliceblue;
+
+
+    font-size: 25px;
+    
+}
+
+table{
+    display: table;
+
+
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+    background: white;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+
+.media{
+
+    margin-top: 200px;
+
+}
