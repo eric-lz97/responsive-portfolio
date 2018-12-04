@@ -1,11 +1,15 @@
 body {
-    margin:0;
+    margin:;
 }
+
+@media screen and ( max-width: 640px )
+{
 
 #main-wrapper {
-    width: 100%;
+  background-size: 500px;
 }
 
+}
 
 .wrapper-nav {
     margin-top:-30px;
@@ -41,7 +45,14 @@ nav a {
 
 }
 
+@media screen and ( max-width: 640px )
+{
+    nav a{
+        background-size: 300px;
+     
+    }
 
+}
 
 .name {
     width: 160px;
@@ -52,7 +63,37 @@ nav a {
     margin-bottom: 0px;
 }
 
+@media screen and ( max-width: 768px )
+{
+    .name{
+        font-size: 20px;
+        padding:30px 40px;
+        text-align: center;
+        margin-top:20px;
+    }
+}
 
+@media screen and ( max-width: 640px )
+{
+    .name{
+        font-size: 60px;
+        padding:40px;
+        width: 600px;
+        text-align: center;
+        margin-top:20px;
+    }
+}
+
+@media screen and ( max-width: 980px )
+{
+    .name{
+        font-size: 60px;
+        padding:30px 50px;
+        width: 600px;
+        text-align: center;
+        margin-top:20px;
+    }
+}
 
 .aabout {
 
@@ -62,6 +103,45 @@ nav a {
     margin-top: 5px;
     width: 100%;
     overflow: hidden;
+
+}
+
+@media screen and ( max-width: 768px ) 
+{
+.aabout img{
+    position: relative;
+   top: -400px;
+
+}
+}
+
+@media screen and ( max-width: 768px ) 
+{
+.aabout img
+{
+    position: absolute;
+    top:200px;
+    left: 150px;
+}
+}
+
+@media screen and ( max-width: 980px ) 
+{
+.aabout img
+{
+    position: relative;
+    top:-312px;
+    left: 10px;
+}
+}
+
+@media screen and ( max-width: 640px)
+{
+.mt-0{
+
+    position: relative;
+    bottom: 150px;
+    right: 150px;
 
 }
 
@@ -89,6 +169,14 @@ padding: 30px;
     text-align: top;
 
 
+}
+
+@media screen and ( max-width: 980px ) 
+{
+.about_me
+{
+   font-size: 90px;
+}
 }
 
 hr {
@@ -186,3 +274,6 @@ tr {
     margin-top: 200px;
 
 }
+
+
+  
